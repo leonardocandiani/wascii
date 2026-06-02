@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<style>
+  :root{--wa-bg:#0b141a;--wa-header:#1f2c34;--wa-in:#1f2c34;--wa-code:#111b21;--txt:#e9edef;--sub:#8696a0;--green:#00a884}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:#05080a;display:flex;padding:60px;font-family:-apple-system,"SF Pro Text",Inter,system-ui,sans-serif}
+  .device{width:430px;border-radius:62px;background:#000;padding:14px;box-shadow:0 40px 120px rgba(0,0,0,.6),0 0 0 2px #1a1a1a;position:relative}
+  .screen{border-radius:50px;overflow:hidden;background:var(--wa-bg);position:relative}
+  .island{position:absolute;top:18px;left:50%;transform:translateX(-50%);width:122px;height:34px;background:#000;border-radius:20px;z-index:20}
+  .statusbar{height:54px;display:flex;align-items:flex-end;justify-content:space-between;padding:0 32px 8px;color:#fff;font-size:16px;font-weight:600}
+  .statusbar .right{display:flex;gap:7px;align-items:center;font-size:15px}
+  .header{background:var(--wa-header);display:flex;align-items:center;gap:12px;padding:8px 16px 12px}
+  .chev{color:var(--green);font-size:26px;margin-right:-4px}
+  .ava{width:42px;height:42px;border-radius:50%;background:linear-gradient(135deg,#00d9ff,#1a1a2e);display:flex;align-items:center;justify-content:center;font-weight:800;color:#fff;font-size:18px;font-family:"SF Mono",Menlo,monospace}
+  .who{flex:1;display:flex;flex-direction:column;line-height:1.2}
+  .who b{color:var(--txt);font-size:17px;font-weight:600}
+  .who span{color:var(--sub);font-size:13px}
+  .hicons{display:flex;gap:22px;color:var(--txt);font-size:19px;opacity:.9}
+  .chat{background:var(--wa-bg);background-image:radial-gradient(rgba(255,255,255,.025) 1px,transparent 1px);background-size:22px 22px;padding:18px 14px 26px;display:flex;flex-direction:column;gap:14px;min-height:690px}
+  .label{align-self:center;color:var(--sub);font-size:12.5px;letter-spacing:.14em;margin-top:6px}
+  .label.bad{color:#f08a8a}.label.good{color:#7ee0a8}
+  .bubble{max-width:92%;background:var(--wa-in);color:var(--txt);border-radius:12px;border-top-left-radius:2px;padding:9px 11px 6px;box-shadow:0 1px 1px rgba(0,0,0,.25)}
+  .cap{font-size:14px;color:var(--sub);margin-bottom:6px}
+  .proportional{font-family:-apple-system,"SF Pro Text",system-ui,sans-serif;font-size:14.5px;white-space:pre-wrap;line-height:1.5;color:#e9edef}
+  pre{background:var(--wa-code);border-radius:7px;padding:9px 11px;font-family:"SF Mono","Menlo","DejaVu Sans Mono","Consolas",monospace;font-size:12.5px;line-height:1.34;color:#e9edef;white-space:pre}
+  .meta{display:block;text-align:right;color:var(--sub);font-size:11px;margin-top:3px}
+</style>
+</head>
+<body>
+  <div class="device">
+    <div class="screen">
+      <div class="island"></div>
+      <div class="statusbar"><div>9:41</div><div class="right"><span>●●●</span><span>5G</span><span>▮▮▮</span></div></div>
+      <div class="header">
+        <div class="chev">‹</div><div class="ava">W</div>
+        <div class="who"><b>wascii</b><span>before / after</span></div>
+        <div class="hicons"><span>↻</span><span>☎</span></div>
+      </div>
+      <div class="chat">
+
+        <div class="label bad">✗ WITHOUT WASCII</div>
+        <div class="bubble">
+          <div class="cap">no code fence — proportional font</div>
+          <div class="proportional">name        score
+ana         1,240
+bruno       1,110
+caio          980</div>
+          <span class="meta">9:41 AM</span>
+        </div>
+
+        <div class="label good">✓ WITH WASCII</div>
+        <div class="bubble">
+          <div class="cap">fenced block — monospace, ≤26 cols</div>
+<pre>┌────────────────────────┐
+│ name        score      │
+├────────────────────────┤
+│ ana         1,240      │
+│ bruno       1,110      │
+│ caio          980      │
+└────────────────────────┘</pre>
+          <span class="meta">9:42 AM</span>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</body>
+</html>
