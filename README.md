@@ -1,6 +1,12 @@
+<!-- readme-padrao:header -->
 <!-- Banner -->
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1a2e,100:00d9ff&height=200&section=header&text=wascii&fontSize=54&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=The%20art%20of%20ASCII%20for%20WhatsApp&descAlignY=58&descSize=16" alt="wascii" width="100%" />
+</div>
+
+<!-- Typing -->
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=2800&pause=900&color=00d9ff&center=true&vCenter=true&width=840&lines=The+art+of+ASCII+for+WhatsApp;Boxes%2C+bars%2C+charts+and+leaderboards+that+line+up+on+a+phone;Seven+rules%2C+one+code+fence%2C+26+columns+max;A+Claude+agent+skill+plus+a+plain-English+reference" alt="The art of ASCII for WhatsApp" />
 </div>
 
 <div align="center">
@@ -19,17 +25,35 @@
   </p>
 
   <p>
-  <a href="#why-this-exists">Why this exists</a> •
-  <a href="#the-seven-rules">The seven rules</a> •
-  <a href="#quick-start">Quick start</a> •
-  <a href="#the-safe-palette-the-short-version">The safe palette (the short version)</a> •
-  <a href="#examples-gallery">Examples gallery</a> •
-  <a href="#contributing">Contributing</a> •
-  <a href="#license">License</a>
+    <a href="#why-this-exists">Why this exists</a> •
+    <a href="#the-seven-rules">The seven rules</a> •
+    <a href="#quick-start">Quick start</a> •
+    <a href="#the-safe-palette-the-short-version">The safe palette (the short version)</a> •
+    <a href="#examples-gallery">Examples gallery</a> •
+    <a href="#contributing">Contributing</a> •
+    <a href="#license">License</a>
   </p>
 </div>
 
 <br>
+
+> **wascii** encodes the handful of rules that separate an aligned box from a proportional-font mess on WhatsApp: fence it, keep it under 26 columns, use only single-cell glyphs, pad every line, commit to one border family.
+
+> Not affiliated with or endorsed by Anthropic. "Claude" and "Claude Code" are Anthropic trademarks.
+
+## What it is
+
+```yaml
+product: agent skill and reference for ASCII visuals that survive WhatsApp on a phone
+rules:   R0 fence · R1 26 columns · R2 one glyph one cell · R3 pad · R4 one border family · R5 · R6
+covers:  boxes, progress bars, bar charts, tables, leaderboards, dividers
+palette: the safe glyph set that renders one cell wide on iOS and Android
+use:     drop SKILL.md into ~/.claude/skills/wascii, or read the rules as a human
+gallery: ready-to-paste examples in the README and templates/
+license: MIT
+```
+
+<!-- /readme-padrao:header -->
 
 ## Why this exists
 
@@ -140,12 +164,14 @@ MIT © [Leonardo Candiani](https://leonardocandiani.com.br), see [`LICENSE`](LIC
 <sub>Built for agents that talk to humans on WhatsApp.</sub>
 </div>
 
+<!-- readme-padrao:footer -->
 <br>
 
 ---
 
 <div align="center">
   <p><strong>Built by <a href="https://github.com/leonardocandiani">Leonardo Candiani</a></strong> · More projects at <a href="https://github.com/leonardocandiani?tab=repositories">github.com/leonardocandiani</a></p>
+  <p>Leonardo Candiani builds AI agents that talk, decide and close deals. Cofounder of SixQuasar, operating Proteauto, SegSmart and IACall end to end.</p>
   <a href="https://leonardocandiani.com.br">
     <img src="https://img.shields.io/badge/-Website-0d1117?style=for-the-badge&logo=safari&logoColor=00d9ff" alt="Website" />
   </a>
@@ -165,3 +191,4 @@ MIT © [Leonardo Candiani](https://leonardocandiani.com.br), see [`LICENSE`](LIC
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00d9ff,50:1a1a2e,100:0d1117&height=120&section=footer&text=Thanks%20for%20stopping%20by&fontSize=18&fontColor=ffffff&fontAlignY=72" alt="Thanks for stopping by" width="100%" />
 </div>
+<!-- /readme-padrao:footer -->

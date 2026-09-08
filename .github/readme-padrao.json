@@ -1,0 +1,45 @@
+{
+  "name": "wascii",
+  "desc": "The art of ASCII for WhatsApp",
+  "typing": [
+    "The art of ASCII for WhatsApp",
+    "Boxes, bars, charts and leaderboards that line up on a phone",
+    "Seven rules, one code fence, 26 columns max",
+    "A Claude agent skill plus a plain-English reference"
+  ],
+  "hero": [
+    {
+      "src": "assets/whatsapp-mockup.png",
+      "alt": "wascii rendering ASCII art inside a WhatsApp chat on an iPhone",
+      "width": 300
+    }
+  ],
+  "tagline": "Monospace boxes, bars, charts and leaderboards that <strong>actually line up</strong> on a phone, not just in your editor.",
+  "badges": [
+    "license",
+    {
+      "label": "Made for",
+      "msg": "WhatsApp",
+      "color": "25D366",
+      "logo": "whatsapp"
+    },
+    {
+      "label": "Claude",
+      "msg": "Skill",
+      "color": "D97757",
+      "logo": "anthropic"
+    },
+    "prs"
+  ],
+  "pitch": "**wascii** encodes the handful of rules that separate an aligned box from a proportional-font mess on WhatsApp: fence it, keep it under 26 columns, use only single-cell glyphs, pad every line, commit to one border family.",
+  "notice": "Not affiliated with or endorsed by Anthropic. \"Claude\" and \"Claude Code\" are Anthropic trademarks.",
+  "what": {
+    "product": "agent skill and reference for ASCII visuals that survive WhatsApp on a phone",
+    "rules": "R0 fence · R1 26 columns · R2 one glyph one cell · R3 pad · R4 one border family · R5 · R6",
+    "covers": "boxes, progress bars, bar charts, tables, leaderboards, dividers",
+    "palette": "the safe glyph set that renders one cell wide on iOS and Android",
+    "use": "drop SKILL.md into ~/.claude/skills/wascii, or read the rules as a human",
+    "gallery": "ready-to-paste examples in the README and templates/",
+    "license": "MIT"
+  }
+}
